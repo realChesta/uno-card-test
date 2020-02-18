@@ -8,7 +8,8 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    font-family: "Calibri";
+    margin: 15px; /*TODO: remove this */
+    font-weight: lighter;
 }
 
 .card-glare {
@@ -20,23 +21,26 @@
 }
 
 .card-border-icon {
+    width: 50px;
+    height: 50px;
     color: white;
+    display: block;
     position: absolute;
-    font-size: 20px;
-    line-height: 20px;
+    line-height: 50px;
+    font-size: 50px;
     margin: 5px 10px;
 }
 
 .card-border-icon.top {
     top: 0;
     left: 0;
+    transform: scale(0.4) translate(-35px, -25px);
 }
 
 .card-border-icon.bottom {
     bottom: 0;
     right: 0;
-    transform: rotateX(180deg);
-    transform: rotateZ(180deg);
+    transform: scale(-0.4) translate(-35px, -25px);
 }
 
 .card-center {
@@ -44,8 +48,4 @@
     height: 50px;
     font-size: 50px;
     line-height: 50px;
-}
-
-.card-center.number {
-
 }

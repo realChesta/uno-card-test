@@ -21,7 +21,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white
+}
+
+.card-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .App-link {

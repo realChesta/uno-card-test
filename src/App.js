@@ -7,16 +7,19 @@ import Card from './components/Card';
 // 62mm x 82mm
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Uno Card Prototype
-        </p>
-        <Card number="7" color="green"/>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <p>
+                    Uno Card Prototype
+                </p>
+                <div className="card-list">
+                    <Card number="7" color="green"/>
+                    <Card number="skip" color="red"/>
+                </div>
+            </header>
+        </div>
+    );
 }
 
 export default App;
