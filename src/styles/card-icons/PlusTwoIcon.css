@@ -1,0 +1,37 @@
+@import url('IconBase.css');
+
+.plus-two-flex {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.plus-two-subcontainer {
+    background-color: inherit;
+    display: block;
+    width: 41px;
+    height: 64px;
+    margin: 0;
+}
+
+.mini-card {
+    position: absolute;
+    display: block;
+    width: 31px;
+    height: 44px;
+    border-style: solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: inherit;
+    transform: scale(0.9);
+}
+
+.mini-card:first-child {
+    margin-top: 20px;
+}
+
+.mini-card:last-child {
+    margin-left: 10px;
+    background-color: inherit;
+}

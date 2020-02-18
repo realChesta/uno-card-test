@@ -16,6 +16,7 @@ function App() {
                 <div className="card-list">
                     <Card number="7" color="green"/>
                     <Card number="skip" color="red"/>
+                    <Card number="+2" color="blue"/>
                 </div>
             </header>
         </div>

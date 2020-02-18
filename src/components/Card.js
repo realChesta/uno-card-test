@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Card.css'
 import '../styles/Colors.css'
 import SkipIcon from "./card-icons/SkipIcon";
+import PlusTwoIcon from "./card-icons/PlusTwoIcon";
 
 class Card extends React.Component {
     constructor() {
@@ -11,17 +12,22 @@ class Card extends React.Component {
     render() {
         let center;
         let number;
-        if (isNaN(this.props.number)) {
+        if (/^\d+$/.test(this.props.number)) {
+            center = <div className="card-center number">{this.props.number}</div>;
+            number = this.props.number;
+        }
+        else {
             switch (this.props.number) {
                 case 'skip':
                     center = <SkipIcon/>;
                     number = <SkipIcon/>;
                     break;
+
+                case "+2":
+                    center = <PlusTwoIcon/>;
+                    number = "+2";
+                    break;
             }
-        }
-        else {
-            center = <div className="card-center number">{this.props.number}</div>;
-            number = this.props.number;
         }
         return (
             <div className={"card-container " + this.props.color}>
