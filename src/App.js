@@ -18,6 +18,7 @@ function App() {
                     <Card number="skip" color="red"/>
                     <Card number="+2" color="blue"/>
                     <Card number="reverse" color="yellow"/>
+                    <Card number="choose"/>
                 </div>
             </header>
         </div>

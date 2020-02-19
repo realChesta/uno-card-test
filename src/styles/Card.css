@@ -1,7 +1,8 @@
+@import url('./Colors.css');
+
 .card-container {
     height: 176px;
     width: 124px;
-    background-color: #282c34;
     border-radius: 6px;
     position: relative;
     display: flex;

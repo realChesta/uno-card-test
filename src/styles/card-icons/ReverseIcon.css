@@ -20,21 +20,21 @@
 
 .reverse-arrow-head {
     position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     box-sizing: border-box;
     border-top: solid;
     border-right: solid;
     border-width: 2px;
     right: 0;
     bottom: 0;
-    transform: translate(0px, 7px) rotate(45deg);
+    transform: translate(0px, 6px) rotate(45deg);
 }
 
 .reverse-arrow-base:first-child {
-    transform: translate(15px, -6px) scale(1, -1) rotate(45deg);
+    transform: translate(15px, -6.5px) scale(1, -1) rotate(45deg);
 }
 
 .reverse-arrow-base:last-child {
-    transform: translate(-15px, 6px) scale(-1, 1) rotate(45deg);
+    transform: translate(-15px, 6.5px) scale(-1, 1) rotate(45deg);
 }

@@ -1,15 +1,27 @@
+:root {
+    --red: indianred;
+    --green: mediumseagreen;
+    --blue: royalblue;
+    --yellow: goldenrod;
+    --gray: #282c34
+}
+
 .red {
- background-color: indianred;
+ background-color: var(--red);
 }
 
 .green {
-    background-color: mediumseagreen;
+    background-color: var(--green);
 }
 
 .blue {
-    background-color: royalblue;
+    background-color: var(--blue);
 }
 
 .yellow {
-    background-color: goldenrod;
+    background-color: var(--yellow);
+}
+
+.gray {
+    background-color: var(--gray);
 }
