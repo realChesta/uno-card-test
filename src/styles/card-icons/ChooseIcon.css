@@ -21,8 +21,6 @@
     width: 52px;
     height: 2px;
     background-color: var(--gray);
-    border-right: 0;
-    border-left: 0;
     transform: translate(-3px, -1px) rotate(45deg);
 }
 

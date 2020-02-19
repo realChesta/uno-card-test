@@ -14,11 +14,10 @@ function App() {
                     Uno Card Prototype
                 </p>
                 <div className="card-list">
-                    <Card number="7" color="green"/>
-                    <Card number="skip" color="red"/>
                     <Card number="+2" color="blue"/>
                     <Card number="reverse" color="yellow"/>
                     <Card number="choose"/>
+                    <Card number="+4"/>
                 </div>
             </header>
         </div>

@@ -1,0 +1,12 @@
+.mini-card {
+    position: absolute;
+    display: block;
+    width: 31px;
+    height: 44px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: inherit;
+    transform: scale(0.9);
+}

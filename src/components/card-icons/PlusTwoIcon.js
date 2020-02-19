@@ -6,8 +6,8 @@ class PlusTwoIcon extends React.Component {
         return (
             <div className="icon-container plus-two-flex">
                 <div className="plus-two-subcontainer clearfix">
-                <div className="mini-card"/>
-                <div className="mini-card"/>
+                <div className="mini-card two"/>
+                <div className="mini-card two"/>
                 </div>
             </div>
         );

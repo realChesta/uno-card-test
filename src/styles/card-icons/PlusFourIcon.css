@@ -1,0 +1,43 @@
+@import url('IconBase.css');
+@import url('../Colors.css');
+@import url('PlusCardBase.css');
+
+.mini-card.green {
+    border-color: var(--green);
+}
+
+.mini-card.blue {
+    border-color: var(--blue);
+}
+
+.mini-card.red {
+    border-color: var(--red);
+}
+
+.mini-card.yellow {
+    border-color: var(--yellow);
+}
+
+.mini-card.four {
+    transform: scale(0.6) translate(1px, 2.5px);
+    transform-origin: 0 0;
+}
+
+.mini-card.four:nth-child(1) {
+    margin-top: 20px;
+}
+
+.mini-card.four:nth-child(2) {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.mini-card.four:nth-child(3) {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.mini-card.four:nth-child(4) {
+    margin-left: 30px;
+    margin-top: 0px;
+}

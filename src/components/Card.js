@@ -5,6 +5,7 @@ import SkipIcon from './card-icons/SkipIcon';
 import PlusTwoIcon from './card-icons/PlusTwoIcon';
 import ReverseIcon from './card-icons/ReverseIcon';
 import ChooseIcon from './card-icons/ChooseIcon';
+import PlusFourIcon from './card-icons/PlusFourIcon';
 
 class Card extends React.Component {
     constructor() {
@@ -40,6 +41,12 @@ class Card extends React.Component {
                 case "choose":
                     center = <ChooseIcon/>;
                     number = <ChooseIcon/>;
+                    color = "gray";
+                    break;
+
+                case "+4":
+                    center = <PlusFourIcon/>;
+                    number = "+4";
                     color = "gray";
                     break;
             }
