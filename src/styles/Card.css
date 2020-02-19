@@ -9,8 +9,8 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin: 15px; /*TODO: remove this */
     font-weight: lighter;
+    color: white;
 }
 
 .card-glare {

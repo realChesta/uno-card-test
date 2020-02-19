@@ -1,8 +1,8 @@
 :root {
-    --red: indianred;
-    --green: mediumseagreen;
-    --blue: royalblue;
-    --yellow: goldenrod;
+    --red: #d0250d; /*indianred*/
+    --green: #78b917; /*mediumseagreen*/
+    --blue: #0861a9; /*royalblue*/
+    --yellow: #ffcd2a; /*goldenrod*/
     --gray: #282c34
 }
 
