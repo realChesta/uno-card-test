@@ -9,6 +9,12 @@ import Card from './components/Card';
 
 class CardList extends React.Component {
     render() {
+        let trail = 200;
+
+        if (window.innerHeight > window.innerWidth) {
+            trail = 50;
+        }
+
         return (
             <div className="card-list">
                 <Transition
@@ -16,27 +22,27 @@ class CardList extends React.Component {
                     keys={item => item.key}
                     unique={true}
                     from={{
-                        marginRight: 0,
-                        marginLeft: 0,
+                        margin: 0,
                         width: 0,
+                        height: 0,
                         opacity: 0,
                         transform: 'translateY(100%) rotate(180deg)'
                     }}
                     enter={{
-                        marginRight: 15,
-                        marginLeft: 15,
+                        margin: 15,
                         width: 'auto',
+                        height: 'auto',
                         opacity: 1,
                         transform: 'translateY(0%) rotate(0deg)'
                     }}
                     leave={{
-                        marginRight: 0,
-                        marginLeft: 0,
+                        margin: 0,
                         width: 0,
+                        height: 0,
                         opacity: 0,
                         transform: 'translateY(-100%) rotate(180deg)'
                     }}
-                    trail={200}>
+                    trail={trail}>
                     {item => styles => {
                         return (
                             <animated.div className='card-overlay-container'
@@ -58,7 +64,11 @@ class App extends React.Component {
         super(props);
 
         const cards = [];
-        const amount = 4;
+        let amount = 5;
+
+        if (window.innerHeight > window.innerWidth) {
+            amount = 4;
+        }
 
         for (let i = 0; i < amount; i++) {
             cards.push(this.createCard(i));
