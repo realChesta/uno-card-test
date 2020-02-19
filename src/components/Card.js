@@ -3,6 +3,7 @@ import '../styles/Card.css'
 import '../styles/Colors.css'
 import SkipIcon from "./card-icons/SkipIcon";
 import PlusTwoIcon from "./card-icons/PlusTwoIcon";
+import ReverseIcon from './card-icons/ReverseIcon';
 
 class Card extends React.Component {
     constructor() {
@@ -26,6 +27,11 @@ class Card extends React.Component {
                 case "+2":
                     center = <PlusTwoIcon/>;
                     number = "+2";
+                    break;
+
+                case "reverse":
+                    center = <ReverseIcon/>;
+                    number = <ReverseIcon/>;
                     break;
             }
         }

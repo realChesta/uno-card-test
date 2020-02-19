@@ -17,6 +17,7 @@ function App() {
                     <Card number="7" color="green"/>
                     <Card number="skip" color="red"/>
                     <Card number="+2" color="blue"/>
+                    <Card number="reverse" color="yellow"/>
                 </div>
             </header>
         </div>
